@@ -1,0 +1,27 @@
+Proposed Changes
+We will build the website within the existing portfolio-website directory, which is already linked to your GitHub and Vercel.
+
+Core Architecture
+Framework: React + Vite (already initialized).
+Styling: CSS variables and vanilla CSS, strictly adhering to the typography, spacing, and monochrome color palette defined in DESIGN.md (Bigpicture Company style).
+Routing: React Router for navigating between the Homepage and individual Project Pages.
+Layout & Visuals
+Implement the 1440px max-width editorial layout with 72px section gaps.
+Use Helvetica Neue for display typography and PPSupplyMono for meta labels (or their specified substitutes).
+No chromatic color. Only the 5 defined neutrals.
+Add the crumpled paper texture to the background as described in DESIGN.md.
+Project Navigation
+Build a custom horizontal carousel/dial for project navigation on the Homepage.
+Include smooth weighted transitions and scaling based on distance from the center.
+Content Integration
+Parse the PDFs to generate JSON data for each project.
+Migrate the images found in the workspace into the public/ directory and organize them by project.
+Construct dedicated Project Pages with semantic sections (Hero, Context, Problem, Research, etc.).
+Verification Plan
+Automated Checks
+Run npm run build to ensure the project compiles successfully without TypeScript or Vite errors.
+Ensure 60fps scrolling and smooth animations via manual checks on the local dev server.
+Manual Verification
+Deploy to Vercel (automatically triggered by pushing to the main branch).
+Review the live Vercel URL to confirm the visual styling matches DESIGN.md perfectly.
+Ensure the horizontal project navigation behaves like a physical dial across devices.
