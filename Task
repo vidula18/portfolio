@@ -1,0 +1,24 @@
+[/] Initialize project structure and CSS variables from DESIGN.md
+[ ] Install necessary dependencies (react-router-dom)
+[ ] Set up custom font families (Helvetica Neue, PPSupplyMono, PPSupplySans, Rock Salt)
+[ ] Build reusable UI components
+[ ] Navigation Pill
+[ ] Display Headline & Section Heading
+[ ] Monospace Meta Tag & Sparkle Divider
+[ ] Rounded Image Block & Address Block
+[ ] Handwritten Annotation
+[ ] Footer Strip
+[ ] Extract project content from PDFs
+[ ] Compound
+[ ] Veda
+[ ] Grievance
+[ ] BILTFOUR
+[ ] Build Homepage
+[ ] Hero Section
+[ ] Horizontal Project Carousel Navigator
+[ ] About / Experience summary
+[ ] Build Project Page template
+[ ] Implement motion and transitions
+[ ] Add crumpled paper background texture
+[ ] Verify responsiveness across desktop, tablet, and mobile
+[ ] Final deployment push to GitHub (triggers Vercel)
